@@ -25,19 +25,19 @@ traffic_dataset/
 ├── labels.csv     # Image labels
 ```
 
-Images are resized to *32x32 pixels*
-Labels are encoded using *one-hot encoding*
+* Images are resized to *32x32 pixels*
+* Labels are encoded using *one-hot encoding*
 
 Model Architecture :-
 
 The CNN model consists of:
 
-3 Convolutional Layers (feature extraction)
-3 MaxPooling Layers (dimensionality reduction)
-Flatten Layer
-Dense Layer (Fully Connected)
-Dropout Layer (to reduce overfitting)
-Output Layer (Softmax activation)
+* 3 Convolutional Layers (feature extraction)
+* 3 MaxPooling Layers (dimensionality reduction)
+* Flatten Layer
+* Dense Layer (Fully Connected)
+* Dropout Layer (to reduce overfitting)
+* Output Layer (Softmax activation)
 
 Technologies Used :-
 
@@ -72,35 +72,35 @@ python main.py
 
 Model Training :-
 
-Optimizer: Adam
-Loss Function: Categorical Crossentropy
-Epochs: 15
-Batch Size: 32
+* Optimizer: Adam
+* Loss Function: Categorical Crossentropy
+* Epochs: 15
+* Batch Size: 32
 
 Results :-
 
 The model performance is evaluated using:
 
-Training Accuracy : 92.65%
-Validation Accuracy : 98.93%
-Training Loss : 0.224
-Validation Loss : 0.0479
+* Training Accuracy : 92.65%
+* Validation Accuracy : 98.93%
+* Training Loss : 0.224
+* Validation Loss : 0.0479
 
 Sample Graphs :-
 
-Accuracy vs Epoch
-Loss vs Epoch
+* Accuracy vs Epoch
+* Loss vs Epoch
 
 Model Analysis :-
 
-CNN layers extract features such as edges, shapes, and patterns
-Dense layers perform classification
-Dropout helps reduce overfitting
+* CNN layers extract features such as edges, shapes, and patterns
+* Dense layers perform classification
+* Dropout helps reduce overfitting
 
 Output Example :-
 
 The model predicts traffic signals such as:
-Stop
-Speed Limit
-No Entry
-Yield
+* Stop
+* Speed Limit
+* No Entry
+* Yield
